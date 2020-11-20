@@ -1,0 +1,10 @@
+.container-fluid{
+    background-color:white;
+    color: black
+}
+.navbar-header img{
+    height: 50px
+}
+.top{
+    text-align: center;
+}

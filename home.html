@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Coiny' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>    
+    .centered {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-family: Alex Brush;
+  color:white;
+}
+.centered h1{
+    font-size: 100px;
+    text-align: center;
+}
+.centered p{
+    font-size: 40px;
+    text-align: center;
+}
+.container2:hover .panel-body{
+  opacity: 0.7;
+}
+.m1{
+  position: relative;
+  bottom: 1350px;
+  right: 250px;
+  font-size: 15px;
+}
+  </style>
+</head>
+<body background="img/10.jpg">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid" style="background-color: white;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="home.html" style="padding-top: 0px;">
+          <img src="img/l1.png" alt="logo" height="50px">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="districts.html" style="color: teal;">Districts</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html" style="color: teal;"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" style="height: 500px;">
+  
+        <div class="item active">
+            <img src="https://images.unsplash.com/photo-1591957190515-c7fd9613b4e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" style="width:100%;">
+            <div class="centered" style="color: brown;" >
+                 <h1>Kerala Tourism</h1>
+                <p>Take memories, leave footprints.</p>
+              </div>
+            </div>
+              
+
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1583740813247-54ea917922bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" style="width:100%;">
+          <div class="centered">
+            <h1>Explore</h1>
+            <p>Culture And Tradition</p>
+          </div>
+        </div>
+  
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1575305327780-a887f284432f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Chicago" style="width:100%;">
+          <div class="centered">
+            <!-- <h2>Always say yes to new adventures</h2> -->
+            <p>Always say yes to new adventures!....</p>
+          </div>
+        </div>
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1491497895121-1334fc14d8c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Chicago" style="width:100%;">
+            <div class="centered">
+                <!-- <h1></h1> -->
+                <div style="color: maroon;">
+                <p>“One’s destination is never a place but rather a new way at looking at things.” —Henry Miller</p>
+                </div>
+              </div>
+            </div>
+        <div class="item">
+          <img src="https://images.unsplash.com/photo-1550628972-6e4dc0d5f0c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="New York" style="width:100%;">
+          <div class="centered">
+            <!-- <h1>Los Angeles</h1> -->
+            <p>Until you step into the unknown, you don’t know what you’re made of.</p>
+          </div>
+        </div>
+    
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <!-- --------------------------------------------------------------------------------- -->
+
+  <div class="jumbotron" style="color: teal; text-align: center; font-family: Coiny; font-weight:900; padding-bottom: 4px; padding-top: 0rem;">
+    <div class="container text-center" >
+        <div>
+            <h3>Experience the GOD's own country!</h3>      
+        </div>
+      
+    </div>
+  </div>
+  
+  
+  <div class="container2">    
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">THRISSUR POORAM</div>
+          <a href="thrissur.html">
+          <div class="panel-body"><img src="https://media.gettyimages.com/photos/festival-elephants-picture-id85429194?k=6&m=85429194&s=612x612&w=0&h=1UQ_MeZIdPWU9zFinXtZa4ZDEuqtIKTkJxCQ5Jb4cFU=" class="img-responsive" style="width:100%" alt="Image"></div>
+          </a>
+          <div class="panel-footer">THRISSUR</div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-danger">
+          <div class="panel-heading">BACKWATERS</div>
+          <a href="alapuzha.html">
+            <div class="panel-body"><img src="https://media.gettyimages.com/photos/house-boats-at-alleppey-backwater-in-kerala-india-picture-id500501131?k=6&m=500501131&s=612x612&w=0&h=P9YQMwAhNZMw4vG4Mq9f3L6Dy6SjLy3dCHCLMSg5SaA=" class="img-responsive" style="width:100%" alt="Image"></div>
+          </a>
+          <div class="panel-footer">ALAPUZHA</div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-success">
+          <div class="panel-heading">PADMANABHASWAMY TEMPLE</div>
+          <a href="Thiruvananthapuram.html">
+            <div class="panel-body"><img src="https://media.gettyimages.com/photos/the-historic-sree-padmanabhaswamy-temple-seen-at-night-in-kerala-picture-id1201747015?k=6&m=1201747015&s=612x612&w=0&h=GIYcD2-8-aoM8taKp66Kd79SG0A4pRwIf3l_y2dJ6Fw=" class="img-responsive" style="width:100%" alt="Image"></div>
+          </a>
+          <div class="panel-footer">THIRUVANANTHAPURAM</div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  
+  <div class="container2">    
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">THEYYAM</div>
+            <a href="kanur.html">
+                <div class="panel-body"><img src="https://media.gettyimages.com/photos/theyyam-dancer-in-tellichery-kerala-india-on-february-22-2008-it-to-picture-id120383852?k=6&m=120383852&s=612x612&w=0&h=ZNRVgO7tiHx4_uIaYq7W-acyeUreoBGM4mltetgSCZA=" class="img-responsive" style="width:100%" alt="Image"></div>
+            </a>
+          <div class="panel-footer">KANNUR</div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading">KURUVA ISLAND</div>
+          <a href="Wayanad.html">
+            <div class="panel-body"><img src="https://media.gettyimages.com/photos/under-the-forest-canopy-in-kuruva-island-wayanad-picture-id1247634671?k=6&m=1247634671&s=612x612&w=0&h=4efSbK6jeL3r5RU2G0y-OKVG9N2rNxm1Qg1pT1tRPeg=" class="img-responsive" style="width:100%" alt="Image"></div>
+          </a>
+          <div class="panel-footer">WAYANAD</div>
+        </div>
+      </div>
+      <div class="col-sm-4"> 
+        <div class="panel panel-primary">
+          <div class="panel-heading">MEESAPULIMALA</div>
+          <a href="idukki.html">
+          <div class="panel-body"><img src="https://media.gettyimages.com/photos/meesapulimala-peak-in-west-ghats-at-sunrise-picture-id1073907284?k=6&m=1073907284&s=612x612&w=0&h=49CZEVZZaeFAFUj3C9cc8gusrTTPbA1l_V3GFWId5HM=" class="img-responsive" style="width:100%" alt="Image"></div>
+          </a>
+          <div class="panel-footer">IDUKKI</div>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+</div>
+
+  
+  <div class="footer"  style="font-family:Arial, Helvetica, sans-serif; background-color:rgb(34, 34, 41) ; color: white; width: 100%; text-align: center;">
+    <p class="card-text">Toll free No: 1-800-425-4747 (Within India only)</p>
+      <p>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033</p> 
+      <p>Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.</p>
+      <p>All rights reserved © Kerala Tourism 2020. Copyright | Terms of Use | Cookie Policy | Contact Us.</p> 
+  </div>
+
+</body>
+</html>
